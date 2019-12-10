@@ -41,6 +41,7 @@ namespace WebAPIdemo
             }
 
            // app.UseHttpsRedirection();
+           //R2 demo1
             app.UseMvc();
         }
     }
