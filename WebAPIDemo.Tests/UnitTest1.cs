@@ -17,7 +17,7 @@ namespace WebAPIDemo.Tests
         {
         //Given
         var returnvalue=_controller.Get(1);
-        Assert.Equal("value1",returnvalue.Value);
+        Assert.Equal("value",returnvalue.Value);
       
         }
 
