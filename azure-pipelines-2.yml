@@ -28,7 +28,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'DevOpsDemo/WebAPIdemo/WebAPIdemo.csproj'
+    projects: '**/WebAPIdemo/*.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
